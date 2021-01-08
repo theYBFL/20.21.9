@@ -1,0 +1,60 @@
+
+#Diğer kaçış dizileri
+#Zil Sesi (\a)
+#Aynı Satır Başı (\r)
+#Düşey Sekme (\v)
+#İmleç Kaydırma (\b)
+#Küçük Unicode (\u)
+#Büyük Unicode (\U)
+#Uzun Ad (\N)
+#Onaltılı Karakter (\x)
+#Etkisizleştirme (r)
+#Sayfa Başı (\f)"""
+
+
+"""Kaçış Dizilerinin Anlamları
+
+\’
+  Karakter dizisi içinde tek tırnak işaretini kullanabilmemizi sağlar.
+
+\”	
+  Karakter dizisi içinde çift tırnak işaretini kullanabilmemizi sağlar.
+
+\\
+	Karakter dizisi içinde \ işaretini kullanabilmemizi sağlar.
+
+\n
+	Yeni bir satıra geçmemizi sağlar.
+
+\t
+	Karakterler arasında sekme boşluğu bırakmamızı sağlar.
+
+\u
+	UNICODE kod konumlarını gösterebilmemizi sağlar.
+
+\U
+	UNICODE kod konumlarını gösterebilmemizi sağlar.
+
+\N
+	Karakterleri UNICODE adlarına göre kullanabilmemizi sağlar.
+
+\x
+	Onaltılı sistemdeki bir sayının karakter karşılığını gösterebilmemizi sağlar.
+
+\a
+	Destekleyen sistemlerde, kasa hoparlöründen bir ‘bip’ sesi verilmesini sağlar.
+
+\r
+	Aynı satırın başına dönülmesini sağlar.
+
+\v
+	Destekleyen sistemlerde düşey sekme oluşturulmasını sağlar.
+
+\b
+	İmlecin sola doğru kaydırılmasını sağlar
+
+\f
+	Yeni bir sayfaya geçilmesini sağlar.
+
+r
+	Karakter dizisi içinde kaçış dizilerini kullanabilmemizi sağlar."""
